@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:involved/themes.dart';
+import 'package:involved/utils/themes.dart';
 import 'package:provider/provider.dart';
 import 'ui/home.dart';
 

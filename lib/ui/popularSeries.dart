@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:involved/ui/description.dart';
-import 'package:involved/keys.dart';
-import '../customText.dart';
+import '../utils/constants.dart';
+import '../utils/customText.dart';
 
 class PopularSeries extends StatelessWidget {
   final List popularTv;

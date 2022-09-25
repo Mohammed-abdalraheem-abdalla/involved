@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:involved/customText.dart';
+import 'package:involved/utils/customText.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import '../models/moviesVideosModel.dart';
@@ -77,13 +77,7 @@ class _DescriptionState extends State<Description> {
 
   @override
   Widget build(BuildContext context) {
-    return YoutubePlayerBuilder(
-      player: YoutubePlayer(
-        controller: controller,
-      ),
-
-      builder: (context, player)
-        => Scaffold(
+    return Scaffold(
             body: ListView(
               children: [
                 Container(
@@ -143,7 +137,6 @@ class _DescriptionState extends State<Description> {
                   ],
                 ),
                 const SizedBox(height: 50),
-                player,
                 const SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: (){
@@ -153,7 +146,7 @@ class _DescriptionState extends State<Description> {
                 ),
               ],
             ),
-          ),
-    );
+          );
+
   }
 }

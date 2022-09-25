@@ -1,0 +1,1 @@
+const link = 'https://image.tmdb.org/t/p/w500' ;

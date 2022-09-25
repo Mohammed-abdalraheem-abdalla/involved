@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:involved/customText.dart';
-import 'package:involved/themes.dart';
+import 'package:involved/utils/customText.dart';
+import 'package:involved/utils/themes.dart';
 import 'package:provider/provider.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

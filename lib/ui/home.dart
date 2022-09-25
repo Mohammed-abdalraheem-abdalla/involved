@@ -1,14 +1,14 @@
 import 'dart:convert';
-import 'package:involved/customText.dart';
-import 'package:involved/searching.dart';
+import 'package:involved/utils/customText.dart';
+import 'package:involved/utils/searching.dart';
 import 'package:involved/ui/settings.dart';
 import 'package:involved/ui/popularMovies.dart';
 import 'package:involved/ui/trending.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:involved/keys.dart';
+import 'package:involved/utils/keys.dart';
 import 'package:involved/ui/popularSeries.dart';
-import '../menu.dart';
+import '../utils/menu.dart';
 
 
 class HomePage extends StatefulWidget {

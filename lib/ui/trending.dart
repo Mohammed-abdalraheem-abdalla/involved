@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:involved/customText.dart';
-import 'package:involved/keys.dart';
+import 'package:involved/utils/customText.dart';
+import '../utils/constants.dart';
 import 'description.dart';
 
 class Trending extends StatelessWidget {
